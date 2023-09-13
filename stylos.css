@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(#5599aa, #D8D8D8, transparent);
+    min-height: 100vh;
+    margin: 0;
+    /* Elimina el margen predeterminado */
+    padding: 0;
+    /* Elimina el relleno predeterminado */
+}
+
+.titulo{
+    font-family:  'ginlgan';
+    text-align: center;
+    color: #0000009f;
+}
+
+.botonera{
+    margin: 10px;
+    background-color: #0202021c;
+    display: flex;
+    
+    flex-direction: column;
+    padding: 30px 100px ;
+
+}
+
+.boton{
+ 
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer;
+    margin-bottom: 10px; /* Agrega margen inferior para separar los botones */
+
+    
+}
+.boton:hover{
+    background-color: #2980b9;
+}
+
+@font-face {
+    font-family: 'ginlgan';
+    src: url(/fuentes/Gilgan.otf);
+    font-weight: normal;
+    font-style: normal;
+}
